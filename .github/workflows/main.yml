@@ -14,6 +14,9 @@ jobs:
       - name: Run a one-line script
         run: echo "Write your CI workflow here!"
 
+      - name: Install deps
+        run: npm install
+
       - name: Test everything
         run: npm run test
 
